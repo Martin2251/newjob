@@ -23,7 +23,7 @@ export default function RootLayout({
         </header>
         <nav>
          <Link href={'/login'}>Login</Link>
-         <Link href={'/post'}>Post</Link>
+         <Link href={'/new-listing'}>Post a job</Link>
 
         </nav>
         {children}
