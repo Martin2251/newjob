@@ -20,12 +20,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <Link href={'/'}>Job Board</Link>
-        </header>
-        <nav>
+          <nav>
          <Link href={'/login'}>Login</Link>
          <Link href={'/new-listing'}>Post a job</Link>
 
         </nav>
+        </header>
+       
         {children}
         </body>
     </html>
